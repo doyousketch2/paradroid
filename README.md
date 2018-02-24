@@ -3,7 +3,7 @@
 # paradroid_mt  ![icon](https://raw.githubusercontent.com/doyousketch2/paradroid_mt/master/games/Paradroid_mt/menu/icon.png) 
 Minetest survival subgame based off an old C64 game  
 
----
+====================================
 
 it's very beta at this stage, alpha even.  
 
@@ -29,6 +29,7 @@ Todo:
 - [ ] sounds  
 - [ ] models  
 
+====================================
 
 get your copy of Minetest from the official location  
 - https://www.minetest.net/  
