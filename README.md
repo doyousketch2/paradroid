@@ -29,6 +29,7 @@ Todo:
 - [ ] framespec game  
 - [ ] transfer capability  
 - [ ] trim out mods that aren't really needed  
+- [ ] merge blinky w/ weapon so it flashes a few times, then solid icon  
 
 ====================================
 
