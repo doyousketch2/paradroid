@@ -11,16 +11,23 @@ get your copy of Minetest from the official location -- https://www.minetest.net
 it's very beta at this stage, alpha even.  
 
 Done so far:  
-- [x] lowered eyeheight
-- [x] modded elevators to use low eyeheight
-- [x] rounded corner blocks
-- [x] bender
+- [x] lowered eyeheight  
+- [x] modded elevators to use low eyeheight  
+- [x] rounded corner blocks  
+- [x] bender  
 - [x] indoor mice  
-- [x] laser crossbows
+- [x] laser crossbows  
 
 
 Todo:  
 
 - [ ] this  
 - [ ] that  
-- [ ] and the other thing
+- [ ] and the other thing  
+- [ ] textures  
+- [ ] map  
+- [ ] more weapons  
+- [ ] transfer capability  
+- [ ] framespec game  
+- [ ] sounds  
+- [ ] models  
