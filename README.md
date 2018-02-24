@@ -21,13 +21,14 @@ Todo:
 - [ ] this  
 - [ ] that  
 - [ ] and the other thing  
+- [ ] models  
 - [ ] textures  
 - [ ] map  
-- [ ] more weapons  
-- [ ] transfer capability  
-- [ ] framespec game  
 - [ ] sounds  
-- [ ] models  
+- [ ] more weapons  
+- [ ] framespec game  
+- [ ] transfer capability  
+- [ ] trim out mods that aren't really needed  
 
 ====================================
 
