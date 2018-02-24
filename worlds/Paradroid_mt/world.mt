@@ -1,0 +1,9 @@
+gameid = Paradroid_mt
+backend = sqlite3
+creative_mode = true
+enable_damage = false
+player_backend = files
+load_mod_shooter = false
+load_mod_nightclub = false
+server_announce = true
+load_mod_xdecor = false
