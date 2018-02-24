@@ -4,7 +4,8 @@
 # paradroid
 Minetest survival subgame based off an old C64 game  
 
-get your copy of Minetest from the official location -- https://www.minetest.net/  
+get your copy of Minetest from the official location  
+- https://www.minetest.net/  
 
 ---
 
