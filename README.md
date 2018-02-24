@@ -41,4 +41,4 @@ git clone https://github.com/minetest/minetest.git --branch backport-0.4 && cd m
 
 sudo apt-get install git cmake build-essential libirrlicht-dev libgettextpo0 libfreetype6-dev libbz2-dev libpng-dev libjpeg-dev libxxf86vm-dev libgl1-mesa-dev libsqlite3-dev libogg-dev libvorbis-dev libopenal-dev libcurl4-openssl-dev libluajit-5.1-dev liblua5.1-0-dev libleveldb-dev libsm-dev  
 
-cmake . -DRUN_IN_PLACE=1 -DENABLE_GETTEXT=1 -DENABLE_FREETYPE=1 -DENABLE_LEVELDB=1 && make -j$(nproc) && cd ../bin && ./minetest  
+cmake . -DRUN_IN_PLACE=1 -DENABLE_GETTEXT=1 -DENABLE_FREETYPE=1 -DENABLE_LEVELDB=1 -DBUILD_SERVER=1 -DBUILD_CLIENT=1 && make -j$(nproc) && cd ../bin && ./minetest  
