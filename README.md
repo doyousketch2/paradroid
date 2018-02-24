@@ -3,9 +3,6 @@
 # paradroid_mt  ![icon](https://raw.githubusercontent.com/doyousketch2/paradroid_mt/master/games/Paradroid_mt/menu/icon.png) 
 Minetest survival subgame based off an old C64 game  
 
-get your copy of Minetest from the official location  
-- https://www.minetest.net/  
-
 ---
 
 it's very beta at this stage, alpha even.  
@@ -31,3 +28,13 @@ Todo:
 - [ ] framespec game  
 - [ ] sounds  
 - [ ] models  
+
+
+get your copy of Minetest from the official location  
+- https://www.minetest.net/  or compile from source:
+
+git clone https://github.com/minetest/minetest.git --branch backport-0.4 && cd minetest/games && git clone https://github.com/minetest/minetest_game.git --branch backport-0.4 && cd ..  
+
+sudo apt-get install git cmake build-essential libirrlicht-dev libgettextpo0 libfreetype6-dev libbz2-dev libpng-dev libjpeg-dev libxxf86vm-dev libgl1-mesa-dev libsqlite3-dev libogg-dev libvorbis-dev libopenal-dev libcurl4-openssl-dev libluajit-5.1-dev liblua5.1-0-dev libleveldb-dev libsm-dev  
+
+cmake . -DRUN_IN_PLACE=1 -DENABLE_GETTEXT=1 -DENABLE_FREETYPE=1 -DENABLE_LEVELDB=1 && make -j$(nproc) && cd ../bin && ./minetest  
