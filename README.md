@@ -10,6 +10,12 @@ get your copy of Minetest from the official location -- https://www.minetest.net
 
 it's very beta at this stage.  
 
+Done so far:  
+
+- [x] indoor mice  
+- [x] crossbows
+
+
 Todo:  
 
 - [ ] this  
