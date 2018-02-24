@@ -31,7 +31,8 @@ Todo:
 
 
 get your copy of Minetest from the official location  
-- https://www.minetest.net/  or compile from source:
+- https://www.minetest.net/  
+- or compile from source:
 
 git clone https://github.com/minetest/minetest.git --branch backport-0.4 && cd minetest/games && git clone https://github.com/minetest/minetest_game.git --branch backport-0.4 && cd ..  
 
