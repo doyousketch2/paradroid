@@ -1,38 +1,38 @@
 extended_attributes = """
-{"test_attribute":"test_me"}
+null
 
 """
 breath = 11
 name = singleplayer
-position = (8,85,-8)
+position = (8,85,-10.24)
 version = 1
 hp = 20
-pitch = -7.05
-yaw = 234.97
+pitch = -8.71
+yaw = 241.88
 PlayerArgsEnd
 List main 32
 Width 0
-Item paradroid_mt:weapon1
-Item paradroid_mt:influencer
-Item shooter:crossbow_loaded_red
-Item shooter:arrow_red
+Item paradroid_mt:weapon2
+Empty
+Item paradroid_mt:grey_recharge
+Item paradroid_mt:grey_slotbox
+Item paradroid_mt:grey_elevator
+Item paradroid_mt:grey_wall
+Item wool:dark_grey
+Item default:coalblock
+Item wool:black
+Item default:papyrus
+Item default:diamondblock
+Item paradroid_mt:cyan_recharge
 Empty
 Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
+Item paradroid_mt:grey_info
+Item paradroid_mt:grey_wall
+Item paradroid_mt:grey_doorway
+Item paradroid_mt:grey_alert_green
+Item paradroid_mt:grey_dotbox
+Item wool:grey
+Item paradroid_mt:grey_floor
 Empty
 Empty
 Empty
@@ -83,41 +83,6 @@ Empty
 EndInventoryList
 List bag4 1
 Width 0
-Empty
-EndInventoryList
-List enderchest 32
-Width 0
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
-Empty
 Empty
 EndInventoryList
 EndInventory

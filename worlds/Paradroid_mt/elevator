@@ -1,1 +1,1 @@
-return {["motors"] = {["(15,18,-5)"] = {["elevators"] = {"(15,16,-5)", "(15,9,-5)"}, ["pnames"] = {"16", "9"}, ["labels"] = {"Level 7", "Level 6"}}}}
+return {["motors"] = {["(15,18,-5)"] = {["labels"] = {"Level 7", "Level 6"}, ["pnames"] = {"16", "9"}, ["elevators"] = {"(15,16,-5)", "(15,9,-5)"}}}}

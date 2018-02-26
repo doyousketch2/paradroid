@@ -284,7 +284,7 @@ mobs:register_mob("mobs:rat", {
 	end,
 })
 -- spawn(name, nodes, max_light, min_light, chance, active_object_count, max_height)
-mobs:register_spawn("mobs:rat", {"wool:grey", "wool:dark_grey"}, 20, -1, 100, 8, 31000)
+mobs:register_spawn("mobs:rat", {"paradroid_mt:grey_floor", "paradroid_mt:pink_floor"}, 20, -1, 100, 8, 31000)
 
 minetest.register_craftitem("mobs:rat", {
 	description = "Rat",
