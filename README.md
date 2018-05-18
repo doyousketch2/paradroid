@@ -38,8 +38,11 @@ get your copy of Minetest from the official location
 - https://www.minetest.net/  
 - or compile from source:
 
-git clone https://github.com/minetest/minetest.git --branch backport-0.4 && cd minetest/games && git clone https://github.com/minetest/minetest_game.git --branch backport-0.4 && cd ..  
+    `git clone https://github.com/minetest/minetest.git --branch backport-0.4 && cd minetest/games && git clone https://github.com/minetest/minetest_game.git --branch backport-0.4 && cd ..`
 
-sudo apt-get install git cmake build-essential libirrlicht-dev libgettextpo0 libfreetype6-dev libbz2-dev libpng-dev libjpeg-dev libxxf86vm-dev libgl1-mesa-dev libsqlite3-dev libogg-dev libvorbis-dev libopenal-dev libcurl4-openssl-dev libluajit-5.1-dev liblua5.1-0-dev libleveldb-dev libsm-dev  
+    `sudo apt-get install git cmake build-essential libirrlicht-dev libgettextpo0 libfreetype6-dev libbz2-dev libpng-dev libjpeg-dev libxxf86vm-dev libgl1-mesa-dev libsqlite3-dev libogg-dev libvorbis-dev libopenal-dev libcurl4-openssl-dev libluajit-5.1-dev liblua5.1-0-dev libleveldb-dev libsm-dev mlocate && updatedb`
 
-cmake . -DRUN_IN_PLACE=1 -DENABLE_GETTEXT=1 -DENABLE_FREETYPE=1 -DENABLE_LEVELDB=1 -DENABLE_GLES=1 -DLUA_INCLUDE_DIR=/usr/include/luajit-2.1/ && make -j$(nproc) && cd bin && ./minetest  
+    `cmake . -DRUN_IN_PLACE=1 -DENABLE_GETTEXT=1 -DENABLE_FREETYPE=1 -DENABLE_LEVELDB=1 -DENABLE_GLES=1 -DLUA_INCLUDE_DIR=\'locate -br \'^luajit-2.1$\' && make -j$(nproc) && cd bin`
+
+    `./minetest`  
+
