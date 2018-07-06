@@ -38,7 +38,7 @@ get your copy of Minetest from the official location
 - https://www.minetest.net/  
 - or compile from source:
 
-    `git clone https://github.com/minetest/minetest.git --branch backport-0.4 && cd minetest/games && git clone https://github.com/minetest/minetest_game.git --branch backport-0.4 && cd ..`
+    `git clone https://github.com/minetest/minetest.git --branch stable-0.4 && cd minetest/games && git clone https://github.com/minetest/minetest_game.git --branch stable-0.4 && cd ..`
 
     `sudo apt-get install git cmake build-essential libirrlicht-dev libgettextpo0 libfreetype6-dev libbz2-dev libpng-dev libjpeg-dev libxxf86vm-dev libgl1-mesa-dev libsqlite3-dev libogg-dev libvorbis-dev libopenal-dev libcurl4-openssl-dev libluajit-5.1-dev liblua5.1-0-dev libleveldb-dev libsm-dev mlocate && updatedb`
 
